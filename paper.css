@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(254, 206, 180);
+}
+h1{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.choices{
+    height: 40vmin;
+    display: flex;
+    gap: 10vmin;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ch{
+    height: 100px;
+    width: 100px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 20vmin;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.score_board{
+    height: 10vmin;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10vmin;
+    justify-content: center;
+    align-items: center;
+}
+#you,#com,#daw{
+    font-size: 3rem;
+}
+.res{
+    height: 20vmin;
+    font-size: 2rem;
+    display: flex;
+    gap: 10vmin;
+    justify-content: center;
+    align-items: center;
+}
